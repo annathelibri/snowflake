@@ -1,12 +1,12 @@
-package jibril.snow64.entities.wrapper;
+package pw.aru.snow64.entities.wrapper;
 
-import jibril.snow64.Snow64;
-import jibril.snow64.entities.Snow64Datacenter;
-import jibril.snow64.entities.Snow64Generator;
-import jibril.snow64.entities.Snow64Worker;
-import jibril.snowflake.SnowflakeConfig;
-import jibril.snowflake.entities.SnowflakeGenerator;
-import jibril.snowflake.entities.SnowflakeWorker;
+import pw.aru.snow64.Snow64;
+import pw.aru.snow64.entities.Snow64Datacenter;
+import pw.aru.snow64.entities.Snow64Generator;
+import pw.aru.snow64.entities.Snow64Worker;
+import pw.aru.snowflake.SnowflakeConfig;
+import pw.aru.snowflake.entities.SnowflakeGenerator;
+import pw.aru.snowflake.entities.SnowflakeWorker;
 
 import java.time.OffsetDateTime;
 

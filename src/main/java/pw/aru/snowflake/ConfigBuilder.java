@@ -1,4 +1,4 @@
-package jibril.snowflake;
+package pw.aru.snowflake;
 
 public class ConfigBuilder {
     private long datacenterIdBits = 5;

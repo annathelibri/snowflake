@@ -1,8 +1,8 @@
-package jibril.snow64;
+package pw.aru.snow64;
 
-import jibril.snow64.entities.Snow64Generator;
-import jibril.snow64.entities.wrapper.Snow64GeneratorWrapper;
-import jibril.snowflake.entities.SnowflakeGenerator;
+import pw.aru.snow64.entities.Snow64Generator;
+import pw.aru.snow64.entities.wrapper.Snow64GeneratorWrapper;
+import pw.aru.snowflake.entities.SnowflakeGenerator;
 
 import java.util.Base64;
 import java.util.Base64.Decoder;

@@ -1,7 +1,7 @@
-package jibril.snow64.entities;
+package pw.aru.snow64.entities;
 
-import jibril.snow64.entities.wrapper.Snow64DatacenterWrapper;
-import jibril.snow64.entities.wrapper.Snow64GeneratorWrapper;
+import pw.aru.snow64.entities.wrapper.Snow64DatacenterWrapper;
+import pw.aru.snow64.entities.wrapper.Snow64GeneratorWrapper;
 
 public interface Snow64Worker {
     String generate();

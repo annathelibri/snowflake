@@ -1,7 +1,7 @@
-package jibril.snow64.entities;
+package pw.aru.snow64.entities;
 
-import jibril.snow64.entities.wrapper.Snow64GeneratorWrapper;
-import jibril.snow64.entities.wrapper.Snow64WorkerWrapper;
+import pw.aru.snow64.entities.wrapper.Snow64GeneratorWrapper;
+import pw.aru.snow64.entities.wrapper.Snow64WorkerWrapper;
 
 public interface Snow64Datacenter {
     long getDatacenterId();

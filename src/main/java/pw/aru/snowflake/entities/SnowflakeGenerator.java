@@ -1,15 +1,15 @@
-package jibril.snow64.entities;
+package pw.aru.snowflake.entities;
 
-import jibril.snowflake.SnowflakeConfig;
+import pw.aru.snowflake.SnowflakeConfig;
 
 import java.time.OffsetDateTime;
 
-public interface Snow64Generator {
+public interface SnowflakeGenerator {
     SnowflakeConfig getConfig();
 
-    Snow64Datacenter getDatacenter(long datacenter);
+    SnowflakeDatacenter getDatacenter(long datacenter);
 
-    default String generate(long datacenterId, long workerId) {
+    default long generate(long datacenterId, long workerId) {
         return getWorker(datacenterId, workerId).generate();
     }
 
@@ -21,7 +21,7 @@ public interface Snow64Generator {
         return getConfig().getCreationTimeMillis(snowflake);
     }
 
-    default Snow64Worker getWorker(long datacenterId, long workerId) {
+    default SnowflakeWorker getWorker(long datacenterId, long workerId) {
         return getDatacenter(datacenterId).getWorker(workerId);
     }
 }

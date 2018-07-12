@@ -1,4 +1,4 @@
-package jibril.snowflake.entities;
+package pw.aru.snowflake.entities;
 
 public interface SnowflakeDatacenter {
     long getDatacenterId();

@@ -1,8 +1,8 @@
-package jibril.snow64.entities.wrapper;
+package pw.aru.snow64.entities.wrapper;
 
-import jibril.snow64.Snow64;
-import jibril.snow64.entities.Snow64Worker;
-import jibril.snowflake.entities.SnowflakeWorker;
+import pw.aru.snow64.Snow64;
+import pw.aru.snow64.entities.Snow64Worker;
+import pw.aru.snowflake.entities.SnowflakeWorker;
 
 public class Snow64WorkerWrapper implements Snow64Worker {
     private final Snow64DatacenterWrapper datacenter;

@@ -1,7 +1,7 @@
-package jibril.snow64.entities.wrapper;
+package pw.aru.snow64.entities.wrapper;
 
-import jibril.snow64.entities.Snow64Datacenter;
-import jibril.snowflake.entities.SnowflakeDatacenter;
+import pw.aru.snow64.entities.Snow64Datacenter;
+import pw.aru.snowflake.entities.SnowflakeDatacenter;
 
 public class Snow64DatacenterWrapper implements Snow64Datacenter {
     private final SnowflakeDatacenter delegate;
