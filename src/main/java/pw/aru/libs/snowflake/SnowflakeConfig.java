@@ -1,8 +1,8 @@
-package pw.aru.snowflake;
+package pw.aru.libs.snowflake;
 
-import pw.aru.snowflake.entities.SnowflakeDatacenter;
-import pw.aru.snowflake.entities.SnowflakeGenerator;
-import pw.aru.snowflake.entities.SnowflakeWorker;
+import pw.aru.libs.snowflake.entities.SnowflakeDatacenter;
+import pw.aru.libs.snowflake.entities.SnowflakeGenerator;
+import pw.aru.libs.snowflake.entities.SnowflakeWorker;
 
 import java.time.OffsetDateTime;
 import java.util.Calendar;

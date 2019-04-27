@@ -1,6 +1,6 @@
-package pw.aru.snowflake;
+package pw.aru.libs.snowflake;
 
-import pw.aru.snowflake.entities.SnowflakeGenerator;
+import pw.aru.libs.snowflake.entities.SnowflakeGenerator;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;

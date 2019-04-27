@@ -1,7 +1,7 @@
-package pw.aru.snow64.entities.wrapper;
+package pw.aru.libs.snowflake.snow64.entities.wrapper;
 
-import pw.aru.snow64.entities.Snow64Datacenter;
-import pw.aru.snowflake.entities.SnowflakeDatacenter;
+import pw.aru.libs.snowflake.entities.SnowflakeDatacenter;
+import pw.aru.libs.snowflake.snow64.entities.Snow64Datacenter;
 
 public class Snow64DatacenterWrapper implements Snow64Datacenter {
     private final SnowflakeDatacenter delegate;

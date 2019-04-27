@@ -1,8 +1,8 @@
-package pw.aru.snow64;
+package pw.aru.libs.snowflake.snow64;
 
-import pw.aru.snow64.entities.Snow64Generator;
-import pw.aru.snow64.entities.wrapper.Snow64GeneratorWrapper;
-import pw.aru.snowflake.entities.SnowflakeGenerator;
+import pw.aru.libs.snowflake.entities.SnowflakeGenerator;
+import pw.aru.libs.snowflake.snow64.entities.Snow64Generator;
+import pw.aru.libs.snowflake.snow64.entities.wrapper.Snow64GeneratorWrapper;
 
 import java.util.Base64;
 import java.util.Base64.Decoder;

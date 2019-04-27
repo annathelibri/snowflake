@@ -1,6 +1,6 @@
-package pw.aru.snowflake.entities;
+package pw.aru.libs.snowflake.entities;
 
-import pw.aru.snowflake.SnowflakeConfig;
+import pw.aru.libs.snowflake.SnowflakeConfig;
 
 import java.time.OffsetDateTime;
 

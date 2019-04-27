@@ -1,12 +1,12 @@
-package pw.aru.snow64.entities.wrapper;
+package pw.aru.libs.snowflake.snow64.entities.wrapper;
 
-import pw.aru.snow64.Snow64;
-import pw.aru.snow64.entities.Snow64Datacenter;
-import pw.aru.snow64.entities.Snow64Generator;
-import pw.aru.snow64.entities.Snow64Worker;
-import pw.aru.snowflake.SnowflakeConfig;
-import pw.aru.snowflake.entities.SnowflakeGenerator;
-import pw.aru.snowflake.entities.SnowflakeWorker;
+import pw.aru.libs.snowflake.SnowflakeConfig;
+import pw.aru.libs.snowflake.entities.SnowflakeGenerator;
+import pw.aru.libs.snowflake.entities.SnowflakeWorker;
+import pw.aru.libs.snowflake.snow64.Snow64;
+import pw.aru.libs.snowflake.snow64.entities.Snow64Datacenter;
+import pw.aru.libs.snowflake.snow64.entities.Snow64Generator;
+import pw.aru.libs.snowflake.snow64.entities.Snow64Worker;
 
 import java.time.OffsetDateTime;
 

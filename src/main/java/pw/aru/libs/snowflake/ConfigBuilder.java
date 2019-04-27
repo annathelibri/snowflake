@@ -1,4 +1,4 @@
-package pw.aru.snowflake;
+package pw.aru.libs.snowflake;
 
 public class ConfigBuilder {
     private long datacenterIdBits = 5;

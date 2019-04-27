@@ -1,4 +1,4 @@
-package pw.aru.snowflake.entities;
+package pw.aru.libs.snowflake.entities;
 
 public interface SnowflakeWorker {
     long generate();
