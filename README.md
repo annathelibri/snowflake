@@ -4,6 +4,10 @@ A simple but complete Snowflake generation Java API.
 
 Licensed under the [MIT License](https://github.com/arudiscord/snowflake/blob/master/LICENSE).
 
+## Notice
+
+This library is now discontinued, use [Nanoflakes Java implementation](https://github.com/nanoflakes/nanoflakes-java) now.
+
 ### Installation
 
 ![Latest Version](https://api.bintray.com/packages/arudiscord/maven/snowflake/images/download.svg)
